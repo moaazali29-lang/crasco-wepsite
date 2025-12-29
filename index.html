@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crasco</title>
+    <!-- Style Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header Start -->
+    <header id="الرئيسية">
+        <div id="navbar">
+            <img src="./img/ logo.png" alt="Crasco Logo" class="logo">
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+
+            </div>
+
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#تواصل معنا">تواصل معنا</a></li>
+                    <li><a href="#مشاريعنا">مشاريعنا</a></li>
+                    <li><a href="#خدماتنا">خدماتنا</a></li>
+                    <li><a href="#من نحن">من نحن</a></li>
+                    <li><a href="#الرئيسية">الرئيسية</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="content">
+            <h1>مرحباً بكم في شركة كراسكو للمقاولات العامة</h1>
+            <p>نقدم لكم أفضل خدمات التشطيبات الداخلية والخارجية بأعلى جودة وأفضل الأسعار</p>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <script>
+        // Toggle mobile menu
+        const mobileMenu = document.getElementById("mobile-menu");
+        const navbarNav = document.querySelector("nav");
+
+        mobileMenu.addEventListener("click", () => {
+            navbarNav.classList.toggle("active");
+        });
+    </script>
+
+
+      <main>
+        <!-- About Section Start -->
+        <section class="about" id="من نحن">
+  <div class="about-container">
+
+    <div class="about-image">
+      <img src="./img/About.jpeg" alt="Crasco Construction">
+    </div>
+
+    <div class="about-content">
+      <h2>من نحن</h2>
+
+      <p>
+        <strong>كراسكو للمقاولات العامة</strong> شركة متخصصة في تنفيذ أعمال
+        المقاولات والتشطيبات، نعمل على تقديم حلول متكاملة بجودة عالية
+        تلبي احتياجات عملائنا في المشاريع السكنية والتجارية
+      </p>
+
+      <p>
+        نتميز بخبرة في تنفيذ أعمال الطابوق، البلاستر، الصبغ، الجبسنبورد
+        والسيراميك، مع الالتزام بالدقة، الجودة، وتسليم الأعمال في
+        الوقت المحدد
+      </p>
+
+      <ul class="about-list">
+        <li>✔ جودة تنفيذ عالية</li>
+        <li>✔ الالتزام بالمواعيد</li>
+        <li>✔ فريق عمل محترف</li>
+        <li>✔ أسعار تنافسية</li>
+      </ul>
+
+      <a href="#تواصل معنا" class="btn">تواصل معنا</a>
+    </div>
+
+  </div>
+</section>
+ <!-- About Section end -->
+
+
+   <!-- services Section Start -->
+<section class="services" id="خدماتنا">
+  <div class="services-container">
+
+    <h2 class="section-title">خدماتنا</h2>
+    <p class="section-desc">
+      نقدم مجموعة متكاملة من خدمات المقاولات والتشطيبات
+      بجودة عالية وتنفيذ احترافي
+    </p>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <img src="./img/tabok.jpeg" alt="أعمال الطابوق">
+        <h3>أعمال الطابوق</h3>
+        <p>
+          تنفيذ جميع أعمال الطابوق بدقة عالية
+          وفق المخططات الهندسية المعتمدة
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img src="./img/blaster.jpg.webp" alt="أعمال البلاستر">
+        <h3>أعمال البلاستر</h3>
+        <p>
+          بلاستر داخلي وخارجي بتشطيب ناعم
+          يضمن المتانة والمظهر الجمالي
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img src="./img/sobgh.jpg" alt="أعمال الصبغ">
+        <h3>أعمال الصبغ</h3>
+        <p>
+          دهانات داخلية وخارجية باستخدام
+          خامات عالية الجودة وألوان عصرية
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img src="./img/gebsboard.jpg.webp" alt="الجبسنبورد">
+        <h3>الجبسنبورد</h3>
+        <p>
+          تنفيذ أسقف معلقة وجدران جبسنبورد
+          بتصميمات حديثة ودقيقة
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img src="./img/ceramik.jpg" alt="السيراميك">
+        <h3>السيراميك</h3>
+        <p>
+          تركيب سيراميك وبورسلان للأرضيات
+          والحوائط بأعلى مستوى تشطيب
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- services Section end -->
+
+
+ <!-- Projects Section start -->
+  <section class="projects" id="مشاريعنا">
+  <div class="projects-container">
+
+    <h2 class="section-title">مشاريعنا</h2>
+    <p class="section-desc">
+      نفخر بتنفيذ مجموعة من المشاريع التي تعكس
+      جودة أعمالنا واحترافيتنا في التنفيذ
+    </p>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <img src="./img/Project1.jpg" alt="مشروع سكني">
+        <div class="project-info">
+          <h3>مشروع سكني-مدينة الرياض</h3>
+          <p>أعمال طابوق وبلاستر وتشطيبات داخلية</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./img/Project2.webp" alt="مشروع تجاري">
+        <div class="project-info">
+          <h3>مشروع تجاري-مَزيد العين</h3>
+          <p>صبغ، جبسنبورد، وتشطيبات حديثة</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./img/Project3.png" alt="مشروع فيلا">
+        <div class="project-info">
+          <h3>فيلا سكنية-القطارة العين</h3>
+          <p>تشطيب كامل وسيراميك وبورسلين</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./img/Project4.jpg" alt="مشروع تشطيب">
+        <div class="project-info">
+          <h3>تشطيبات داخلية-مدينة زايد</h3>
+          <p>جبسنبورد ودهانات بأعلى جودة</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./img/Project5.jpg.webp" alt="مشروع أرضيات">
+        <div class="project-info">
+          <h3>أعمال أرضيات-أبو ظبي</h3>
+          <p>تركيب سيراميك وبورسلان</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./img/Project6.jpeg" alt="مشروع مباني">
+        <div class="project-info">
+          <h3>مباني وطابوق-الشامخة</h3>
+          <p>تنفيذ أعمال طابوق وفق المخططات</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- Projects Section End -->
+
+
+ <!-- Projects Contact start -->
+  <section class="contact" id="تواصل معنا">
+  <div class="contact-container">
+
+    <h2 class="section-title">تواصل معنا</h2>
+    <p class="section-desc">
+      لأي استفسار أو طلب عرض سعر، تواصل معنا عبر أي وسيلة مناسبة لك.
+    </p>
+
+    <div class="contact-grid">
+
+      <!-- نموذج الاتصال -->
+      <form class="contact-form" action="#" method="POST">
+        <input type="text" name="name" placeholder="الاسم" required>
+        <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+        <input type="tel" name="phone" placeholder="رقم الهاتف" required>
+        <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+        <button type="submit" class="btn">إرسال</button>
+      </form>
+
+      <!-- معلومات التواصل -->
+      <div class="contact-info">
+        <div class="info-item">
+          <h3>📞 الهاتف</h3>
+          <p>+971588383569</p>
+        </div>
+        <div class="info-item">
+          <h3>✉ البريد الإلكتروني</h3>
+          <p>crascocontracting@gmail.com</p>
+        </div>
+        <div class="info-item">
+          <h3>💬 واتساب</h3>
+          <p><a href="https://wa.me/+971588383569" target="_blank">ابدأ محادثة</a></p>
+        </div>
+        <div class="info-item" class="map">
+          <h3>📍 الموقع</h3>
+          <p>مكتب 153، بناية الهاشم للرخام 1، 403 شارع الكواكب، مصفح 39، أبوظبي</p>
+            
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1159.7126128081138!2d54.486902410533894!3d24.357164261001003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e40fa56575fed%3A0xcf6bf46a8b86c6a4!2sMRAAFK%20Management%26%20Operation%20Utilities%2C%20M-39es!5e1!3m2!1sar!2sae!4v1766938025335!5m2!1sar!2sae"
+    width="60%"
+        height="200"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+  
+        </div>
+        <div>
+                            <h3>تابعنا</h3>
+                            <a href="https://www.facebook.com/profile.php?id=61584664145745"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://wa.me/+971588383569"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/crasco13665/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                   
+      </div>
+
+    </div>
+
+  </div>
+</section>
+      </main>
+       <footer id="footer">
+        <p>Copyright &copy; 2025 All rights reserved | made by <b><a href="https://www.facebook.com/moaaz.ali.maher.2025">Moaaz Maher</a></b></p>
+
+    </footer>
+      
+</body>
+</html>
+
